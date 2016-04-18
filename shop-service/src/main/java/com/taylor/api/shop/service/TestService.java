@@ -15,4 +15,12 @@ public interface TestService extends BaseService<Test> {
      * @date 2016年4月14日 上午12:53:53
      */
     public void test();
+
+    /**
+     * @desc getHello(测试)
+     * @return
+     * @author taylor
+     * @date 2016年4月17日 下午7:32:07
+     */
+    public String getHello();
 }
